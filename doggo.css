@@ -1,0 +1,156 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: rgb(147, 138, 5);
+    height:78px;
+    width:viewport-length;
+    padding: 0 25px 0 25px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+main {
+    display:flex;
+    width:100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sekssionOne {
+    display:flex;
+    flex-direction: row;
+    width:60%;
+    justify-content: center;
+    gap:100px;
+    margin-top: 100px;
+}
+
+.dimension {
+    height: 200px;
+}
+
+img {
+    border-radius: 20px;
+    margin: 0 0 10px 0;
+}
+
+.carte {
+    background-color: rgb(128, 193, 254);
+    border-radius: 20px;
+    padding: 0 0 20px 0;
+    box-shadow: 5px 10px 20px 0.2px;
+}
+
+.carte:hover {
+    background-color: antiquewhite;
+    color:rgb(128, 193, 254);
+    
+}
+p:hover {
+    color: rgb(218, 0, 120);
+}
+
+
+p{
+    margin: 0 0 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color:rgb(3, 7, 22);
+}
+
+h1 {
+    font-family:monospace ;
+    font-size: 65px;
+    color: rgb(255, 255, 255);
+
+}
+
+a {
+    text-decoration: none;
+    color:rgb(39, 0, 0);
+}
+
+.sekssionTwo {
+    margin: 150px 0 0 0;
+}
+
+h3 {
+    font-size: 35px;
+    color:darkslategray;
+
+}
+
+h2 {
+    font-size: 30px;
+    margin-top:20px;
+    color: rgb(64, 91, 91);
+    
+}
+
+h4 {
+    font-size: 18px;
+    color:rgb(53, 53, 53);
+}
+
+form {
+    margin: 30px 0 0 0;
+    display:flex;
+    flex-direction: column;
+    gap: 28px;
+    background-color:blanchedalmond;
+    padding:7px;
+    border-radius: 20px;
+}
+
+.radio {
+background-color: rgb(128, 193, 254);
+width: fit-content;
+padding: 0 3px 0 3px;
+border-radius: 5px;
+color:rgb(0, 0, 0);
+}
+
+input {
+    color:blueviolet;
+}
+
+button {
+    width: fit-content;
+    border: 0 solid;
+    padding: 5px;
+    background-color: rgb(218, 0, 120);
+    border-radius: 7px;
+    color:white;
+}
+
+footer {
+    background-color: rgb(53, 53, 53);
+    height: 50px;
+    margin: 200px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+color:white;
+
+}
